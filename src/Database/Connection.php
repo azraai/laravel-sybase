@@ -134,6 +134,7 @@ class Connection extends IlluminateConnection
             }
         }
 
+        $newBinds = [];
         $newFormat = [];
 
         foreach ($arrTables as $tables) {
